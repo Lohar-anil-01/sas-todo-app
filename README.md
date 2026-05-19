@@ -1,16 +1,142 @@
-# React + Vite
+# 📝 SAS Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Todo Application built to manage daily tasks efficiently.  
+This app allows users to create, update, delete, and organize tasks with a clean user interface and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new todos
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- ✏️ Edit existing todos
+- 🌙 Responsive and clean UI
+- ⚡ Fast performance using React
+- 💾 State management for dynamic updates
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
+- Context API / State Management
+
+---
+
+## 📂 Project Structure
+
+```bash
+sas-todo-app/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── contexts/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Lohar-anil-01/sas-todo-app.git
+```
+
+Move into the project directory:
+
+```bash
+cd sas-todo-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+Add your project screenshots here.
+
+Example:
+
+```md
+![App Screenshot](./screenshots/home.png)
+```
+
+---
+
+## 🎯 Future Improvements
+
+- 🔐 User Authentication
+- ☁️ Backend Integration
+- 📱 Progressive Web App (PWA)
+- 🗂️ Categories & Filters
+- 🌈 Dark Mode
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature/NewFeature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to the branch
+
+```bash
+git push origin feature/NewFeature
+```
+
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Developed by Anil Lohar
+
+- GitHub: https://github.com/Lohar-anil-01
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
